@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Personnel</title>
+      <link>http://Ceolms.github.io/categories/personnel/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://Ceolms.github.io/categories/personnel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projets</title>
       <link>http://Ceolms.github.io/categories/projets/</link>
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
@@ -21,29 +30,11 @@
     </item>
     
     <item>
-      <title>showcase</title>
-      <link>http://Ceolms.github.io/categories/showcase/</link>
-      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      <title>UQAC</title>
+      <link>http://Ceolms.github.io/categories/uqac/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://Ceolms.github.io/categories/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>http://Ceolms.github.io/categories/tranquilpeak/</link>
-      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://Ceolms.github.io/categories/tranquilpeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>http://Ceolms.github.io/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://Ceolms.github.io/categories/features/</guid>
+      <guid>http://Ceolms.github.io/categories/uqac/</guid>
       <description></description>
     </item>
     

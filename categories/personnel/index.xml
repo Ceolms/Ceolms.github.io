@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personnel on Portfolio Théo Gaërel</title>
+    <link>http://Ceolms.github.io/categories/personnel/</link>
+    <description>Recent content in Personnel on Portfolio Théo Gaërel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://Ceolms.github.io/categories/personnel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4 Cards</title>
+      <link>http://Ceolms.github.io/2019/08/4-cards/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://Ceolms.github.io/2019/08/4-cards/</guid>
+      <description>&lt;style type=&#39;text/css&#39;&gt;
+.customImg {width: 180px !important; heigth=180px !important}
+&lt;/style&gt;
+
+&lt;p&gt;4Cards est l&amp;rsquo;adaptation d&amp;rsquo;un jeu de carte sur Android grâce à Unity
+C&amp;rsquo;est un projet que je réalise seul pour apprendre comment concevoir des jeux prévus pour une interface mobile.
+Le multijoueur est encore en cours de développement ainsi que l&amp;rsquo;interface du menu principal
+C&amp;rsquo;est un jeu qui combine chance , mémoire et stratégie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
