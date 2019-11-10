@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C# on Portfolio Théo Gaërel</title>
-    <link>http://Ceolms.github.io/tags/c#/</link>
+    <link>https://Ceolms.github.io/tags/c#/</link>
     <description>Recent content in C# on Portfolio Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://Ceolms.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Ceolms.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>4 Cards</title>
-      <link>http://Ceolms.github.io/2019/08/4-cards/</link>
+      <link>https://Ceolms.github.io/2019/08/4-cards/</link>
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://Ceolms.github.io/2019/08/4-cards/</guid>
+      <guid>https://Ceolms.github.io/2019/08/4-cards/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
@@ -29,20 +29,20 @@ C&amp;rsquo;est un jeu qui combine chance , mémoire et stratégie.&lt;/p&gt;</d
     
     <item>
       <title>VR Home</title>
-      <link>http://Ceolms.github.io/2019/04/vr-home/</link>
+      <link>https://Ceolms.github.io/2019/04/vr-home/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://Ceolms.github.io/2019/04/vr-home/</guid>
+      <guid>https://Ceolms.github.io/2019/04/vr-home/</guid>
       <description>&lt;p&gt;VRHome est logiciel fait grâce a Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
 Ce projet a été réalisé par une équipe de 3 étudiants pour le cours d&amp;rsquo;Interaction 3D et réalité virtuelle.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Depths&#39; Adventures</title>
-      <link>http://Ceolms.github.io/2019/04/depths-adventures/</link>
+      <link>https://Ceolms.github.io/2019/04/depths-adventures/</link>
       <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://Ceolms.github.io/2019/04/depths-adventures/</guid>
+      <guid>https://Ceolms.github.io/2019/04/depths-adventures/</guid>
       <description>&lt;p&gt;Depths&amp;rsquo;Adventures est un Tactical RPG - Rogue Like créer sous Unity par 6 étudiants pendant 4 mois.&lt;/p&gt;</description>
     </item>
     
