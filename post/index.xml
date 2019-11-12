@@ -21,9 +21,9 @@
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
 
-&lt;p&gt;4Cards est l&amp;rsquo;adaptation d&amp;rsquo;un jeu de carte sur Android grâce à Unity
+&lt;p&gt;4Cards est l&amp;rsquo;adaptation d&amp;rsquo;un jeu de carte sur Android grâce à Unity.
 C&amp;rsquo;est un projet que je réalise seul pour apprendre comment concevoir des jeux prévus pour une interface mobile.
-Le multijoueur est encore en cours de développement ainsi que l&amp;rsquo;interface du menu principal
+Le multijoueur est encore en cours de développement ainsi que l&amp;rsquo;interface du menu principal.
 C&amp;rsquo;est un jeu qui combine chance , mémoire et stratégie.&lt;/p&gt;</description>
     </item>
     
@@ -33,7 +33,7 @@ C&amp;rsquo;est un jeu qui combine chance , mémoire et stratégie.&lt;/p&gt;</d
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://Ceolms.github.io/2019/04/vr-home/</guid>
-      <description>&lt;p&gt;VRHome est logiciel fait grâce a Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
+      <description>&lt;p&gt;VRHome est logiciel fait grâce à Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
 Ce projet a été réalisé par une équipe de 3 étudiants pour le cours d&amp;rsquo;Interaction 3D et réalité virtuelle.&lt;/p&gt;</description>
     </item>
     
@@ -43,7 +43,7 @@ Ce projet a été réalisé par une équipe de 3 étudiants pour le cours d&amp;
       <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://Ceolms.github.io/2019/04/depths-adventures/</guid>
-      <description>&lt;p&gt;Depths&amp;rsquo;Adventures est un Tactical RPG - Rogue Like créer sous Unity par 6 étudiants pendant 4 mois.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Depths&amp;rsquo;Adventures est un Tactical RPG - Rogue Like crée sous Unity par 6 étudiants pendant 4 mois.&lt;/p&gt;</description>
     </item>
     
   </channel>
