@@ -6,17 +6,30 @@
     <description>Recent content in Personnel on Portfolio Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://Ceolms.github.io/categories/personnel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>4 Cards</title>
-      <link>https://Ceolms.github.io/2019/08/4-cards/</link>
-      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      <title>Dragon Garden</title>
+      <link>https://Ceolms.github.io/2020/05/dragon-garden/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2019/08/4-cards/</guid>
+      <guid>https://Ceolms.github.io/2020/05/dragon-garden/</guid>
+      <description>&lt;style type=&#39;text/css&#39;&gt;
+.customImg {width: 180px !important; heigth=180px !important}
+&lt;/style&gt;
+
+&lt;p&gt;Dragon garden est un tamagotchi-like sur lequel j&amp;rsquo;ai travaillé durant le confinement afin de continuer à améliorer mes connaissances de Unity et de la programmation de jeux mobiles&lt;/br&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>4 Cards</title>
+      <link>https://Ceolms.github.io/2020/04/4-cards/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Ceolms.github.io/2020/04/4-cards/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
