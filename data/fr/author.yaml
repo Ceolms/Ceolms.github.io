@@ -1,0 +1,16 @@
+# some information about you
+name: "Théo Gaërel"
+nickname: "Théo Gaërel"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salut! Moi c'est"
+image: "images/author/theo.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "theo@gaerel.net"
+  phone: "06 95 13 05 20"
+  github: Ceolms
+  linkedin: gaereltheo
+
+# some summary about what you do
+summary:
+  - Gameplay Developper
