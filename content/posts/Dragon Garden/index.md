@@ -28,4 +28,4 @@ Le menu du bas contient l'inventaire, le magasin, les mini-jeux, la possibilité
 La génération du dragon est aléatoire , il sera différent pour chaque joueur.
 <img class="customImg" alt="Image Début partie" src="random-Color.png">
 
-Ce projet est en suspens loin d'être abandonné , j'ajouterai du contenu sur cette page au fur et à mesure de ma progression.
+Ce projet est en suspens et loin d'être terminé , j'ajouterai du contenu sur cette page au fur et à mesure de ma progression.

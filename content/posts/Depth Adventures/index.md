@@ -18,8 +18,7 @@ Notre équipe a choisi de créer un Tactical RPG - Rogue Like dans un univers Fa
 J'ai été en charge des fonctionnalités de combats , de la création des sorts et de divers éléments graphiques.
 Nous avons obtenu la note de 4.0 sur 4,33.
 
-Lien Youtube du trailer : (cliquez sur l'image) 
-[![Liens Trailer Youtube](http://img.youtube.com/vi/s5wA4YAOkWQ/0.jpg)](https://www.youtube.com/watch?v=s5wA4YAOkWQ&list=LLS8UP-insRzH0TFkm3CcNaA&index=6&t=0s)
+{{< youtube s5wA4YAOkWQ >}}
 
 L'écran d'accueil dans une ambiance taverne permet de choisir les aventuriers qui vont parcourir le donjon ainsi que des "tokens",
 des bonus à assigner à chaque personnage pour leur apporter des bonus / malus.
