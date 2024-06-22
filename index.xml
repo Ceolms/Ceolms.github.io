@@ -1,80 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio Théo Gaërel</title>
-    <link>https://Ceolms.github.io/</link>
-    <description>Recent content on Portfolio Théo Gaërel</description>
+    <title>Portfolio de Théo Gaërel</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Portfolio de Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    <language>fr</language>
+    <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Blade Prince Academy</title>
+      <link>http://localhost:1313/posts/blade-prince-academy/</link>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/blade-prince-academy/</guid>
+      <description>&lt;p&gt;Blade Prince Academy ! Mon plus gros projet à ce jour ! C&amp;rsquo;est le premier jeu du studio Angel Corp, entreprise basé à Saint-Etienne j&amp;rsquo;ai rejoint en Septembre 2020. &lt;/br&gt;
+Le développement de Blade Prince Academy a duré 4 ans et a mobilisé une équipe d&amp;rsquo;une quarantaine de personne au plus fort du développement.&lt;/p&gt;</description>
+    </item>
     
-	<atom:link href="https://Ceolms.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clash de Haches</title>
+      <link>http://localhost:1313/posts/clash-de-haches/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/clash-de-haches/</guid>
+      <description>&lt;p&gt;Clash de Haches est un centre de Lancer de Haches situé à Andrézieux près de Saint-Etienne.&lt;/br&gt;
+J&amp;rsquo;ai développé pour eux un logiciel sur tablette reliée a un projecteur qui projette des mini-jeux sur cible en bois.&lt;/p&gt;</description>
+    </item>
     
+    <item>
+      <title>Boat Driver</title>
+      <link>http://localhost:1313/posts/boat-driver/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/boat-driver/</guid>
+      <description>&lt;p&gt;Boat Driver est une application qui permet de simuler un océan et de déplacer des maquettes motorisées sur un écran géant.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Dragon Garden</title>
-      <link>https://Ceolms.github.io/2020/05/dragon-garden/</link>
+      <link>http://localhost:1313/posts/dragon-garden/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/05/dragon-garden/</guid>
+      <guid>http://localhost:1313/posts/dragon-garden/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
-
-&lt;p&gt;Dragon garden est un tamagotchi-like sur lequel j&amp;rsquo;ai travaillé durant le confinement afin de continuer à améliorer mes connaissances de Unity et de la programmation de jeux mobiles&lt;/br&gt;&lt;/p&gt;</description>
+&lt;p&gt;Dragon Garden est un tamagotchi-like sur lequel j&amp;rsquo;ai travaillé durant le confinement afin de continuer à améliorer mes connaissances de Unity et de la programmation de jeux mobiles&lt;/br&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>4 Cards</title>
-      <link>https://Ceolms.github.io/2020/04/4-cards/</link>
+      <link>http://localhost:1313/posts/4cards/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/04/4-cards/</guid>
+      <guid>http://localhost:1313/posts/4cards/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
-
-&lt;p&gt;4Cards est l&amp;rsquo;adaptation d&amp;rsquo;un jeu de carte sur Android grâce à Unity.&lt;/br&gt;
+&lt;p&gt;4 Cards est l&amp;rsquo;adaptation d&amp;rsquo;un jeu de carte sur Android grâce à Unity.&lt;/br&gt;
 C&amp;rsquo;est un projet que je réalise seul pour apprendre comment concevoir des jeux prévus pour une interface mobile.&lt;/br&gt;
 C&amp;rsquo;est un jeu qui combine chance , mémoire et stratégie.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Depths&#39; Adventures</title>
-      <link>https://Ceolms.github.io/2020/01/depths-adventures/</link>
+      <link>http://localhost:1313/posts/depth-adventures/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/01/depths-adventures/</guid>
-      <description>&lt;p&gt;Depths&amp;rsquo;Adventures est un Tactical RPG - Rogue Like créé sous Unity par 6 étudiants pendant 4 mois.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/depth-adventures/</guid>
+      <description>&lt;p&gt;Depths&amp;rsquo; Adventures est un Tactical RPG - Rogue Like créé sous Unity par 6 étudiants pendant 4 mois.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Escape Unreal</title>
-      <link>https://Ceolms.github.io/2020/01/escape-unreal/</link>
+      <link>http://localhost:1313/posts/escape-unreal/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/01/escape-unreal/</guid>
+      <guid>http://localhost:1313/posts/escape-unreal/</guid>
       <description>&lt;p&gt;Escape Unreal est un jeu de plateforme et escape game réalisé sur Unreal Engine par 3 étudiants en 2 mois.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Station Defenders</title>
-      <link>https://Ceolms.github.io/2020/01/station-defenders/</link>
+      <link>http://localhost:1313/posts/station-defenders/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/01/station-defenders/</guid>
+      <guid>http://localhost:1313/posts/station-defenders/</guid>
       <description>&lt;p&gt;Station Defenders est un jeu de type Twin-Stick shooter - Tower Defense créé sous Unity par 3 étudiants pendant 4 mois.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VR Home</title>
-      <link>https://Ceolms.github.io/2019/04/vr-home/</link>
+      <link>http://localhost:1313/posts/vr-home/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2019/04/vr-home/</guid>
-      <description>&lt;p&gt;VRHome est logiciel fait grâce à Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
+      <guid>http://localhost:1313/posts/vr-home/</guid>
+      <description>&lt;p&gt;VR Home est logiciel fait grâce à Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
 Ce projet a été réalisé par une équipe de 3 étudiants pour le cours d&amp;rsquo;Interaction 3D et réalité virtuelle.&lt;/p&gt;</description>
     </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   </channel>
 </rss>

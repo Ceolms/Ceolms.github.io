@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Station Defenders</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.b27e3f05590a7237629bae055e6603515e7e99e5cc2f51f52e8baaab58e5ff54.css" integrity="sha256-sn4/BVkKcjdim64FXmYDUV5&#43;meXML1H1Louqq1jl/1Q=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu1ed497c4679b53335f7bff171adb67e2_31852_42x0_resize_box_3.png" />
+
+<meta property="og:url" content="http://localhost:1313/posts/station-defenders/station-defenders/">
+  <meta property="og:site_name" content="Portfolio de Théo Gaërel">
+  <meta property="og:title" content="Station Defenders">
+  <meta property="og:description" content="Station Defenders est un jeu de type Twin-Stick shooter - Tower Defense créé sous Unity par 3 étudiants pendant 4 mois.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-01-07T00:00:00+00:00">
+    <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="C#">
+    <meta property="article:tag" content="Split-Screen">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Station Defenders">
+  <meta name="twitter:description" content="Station Defenders est un jeu de type Twin-Stick shooter - Tower Defense créé sous Unity par 3 étudiants pendant 4 mois.">
+
+    
+    
+<meta name="description" content="Station Defenders" />
+
+
+    
+
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/main-logo_hu1ed497c4679b53335f7bff171adb67e2_31852_42x0_resize_box_3.png" id="logo" alt="Logo">
+      Portfolio de Théo Gaërel</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Accueil</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">Profil</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Compétences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#recent-posts">Projets Récents</a>
+                </li>
+              
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Articles</a>
+          </li>
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_hu1ed497c4679b53335f7bff171adb67e2_31852_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/inverted-logo_hu1ed497c4679b53335f7bff171adb67e2_31852_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Chercher" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Articles</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/zintroduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/zanciens/category/"> Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/zanciens/category/sub-category/"> Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/zanciens/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/zanciens/markdown-sample/" title="Markdown Sample">Markdown Sample</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/zanciens/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/theo_hu6e47b33df57c451234fcb11980efac10_69926_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Théo Gaërel</h5>
+          <p class="text-muted">mardi 7 janvier 2020 | 2 minutes</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>Station Defenders</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/unity/" class="btn btn-sm btn-info">Unity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/c#/" class="btn btn-sm btn-info">C#</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/split-screen/" class="btn btn-sm btn-info">Split-Screen</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <p>Station Defenders est un jeu de type Twin-Stick shooter - Tower Defense créé sous Unity par 3 étudiants pendant 4 mois.</p>
+<p>Le jeu est téléchargeable  <a href="https://drive.google.com/file/d/1ExdYR4YDUYXXg7gwtgNO8xbO4x7e8U5_/view?usp=sharing" target="_blank" rel="noopener">ici !</a></p>
+<p>Pour le cours de Conception &amp; Développement de Jeu, nous avons dû réaliser un jeu sous Unity en un trimestre.
+Notre équipe a choisi de créer un Twin-Stick shooter - Tower Defense dans un univers Sci-Fi
+J&rsquo;ai été le chef de projet et j&rsquo;ai réalisé le coeur du gameplay et les fonctionnalités principales. (Les 2 autres étudiants n&rsquo;avaient jamais développé de jeu )</p>
+<p>Lien Youtube du trailer : (cliquez sur l&rsquo;image)
+<a href="https://youtu.be/xszJ6cXIUM4" target="_blank" rel="noopener"><img alt="Liens Trailer Youtube" src="https://i.ibb.co/s9604SC/video.png"></a></p>
+<p>L&rsquo;écran d&rsquo;accueil dans une ambiance Futuriste permet de commencer à jouer ou bien d&rsquo;apprendre les contrôles et les règles du jeu.
+<img alt="Image Ecran Principal" src="https://i.ibb.co/rHtsfzv/Ecran-Principal.png"></p>
+<p><img alt="Image How To Play" src="https://i.ibb.co/nnC08mf/HowTo.png"></p>
+<p>Chaque joueur clique sur le bouton A de sa manette ou sur la touche Entrée du clavier pour rejoindre la partie.
+<img alt="Image Join" src="https://i.ibb.co/tDpkmmy/Join.png"></p>
+<p>Le but du jeu est de protéger le coeur de la station d&rsquo;extraterrestres qui essayent de le détruire. Les joueurs peuvent se déplacer avec
+le stick gauche de la manette et tourner leur personnage avec le stick droit. Ils peuvent tirer des lasers, lancer des grenades , afficher une minimap et soigner les alliés à terre.
+Les aliens arrivent par vagues et la partie se termine si le coeur est détruit ou si toutes les vagues sont éliminées.
+<img alt="Image Jeu" src="https://i.ibb.co/Rv76ZQb/Solo.png"></p>
+<p><img alt="Image Jeu Multi " src="https://i.ibb.co/MP0Ztq0/Multi.png"></p>
+<p>Divers évènements viennent pimenter la partie : Des chutes de météorites , des coupures de courant et des incendies.
+<img alt="Image Event Meteor" src="https://i.ibb.co/Dz754qS/Meteor.png"></p>
+<p><img alt="Image Event Fire" src="https://i.ibb.co/VxzgXWc/Light.png"></p>
+<p>Le score est aussi important car c&rsquo;est un jeu d&rsquo;équipe mais il y a aussi de la compétition car les joueurs cherchent à avoir le meilleur score de la partie.
+<img alt="Image Score" src="https://i.ibb.co/K6jt84P/Scores.png"></p>
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Partager sur:</strong>
+            
+            
+            
+            
+            
+            
+            
+             
+            
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/hugo-toha/hugo-toha.github.io/edit/main/content/posts%5cStation%20Defenders%5cStation%20Defenders.md" title="Améliorez cette page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Améliorez cette page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center ps-3">Table des matières</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/application.a6ca8b926ce717c094a85d5286dc5316091760bf6e925486d366f36b98e2c612.js" integrity="sha256-psqLkmznF8CUqF1ShtxTFgkXYL9uklSG02bza5jixhI=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

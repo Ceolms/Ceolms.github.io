@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steam on Portfolio de Théo Gaërel</title>
+    <link>http://localhost:1313/tags/steam/</link>
+    <description>Recent content in Steam on Portfolio de Théo Gaërel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/steam/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Blade Prince Academy</title>
+      <link>http://localhost:1313/posts/blade-prince-academy/</link>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/blade-prince-academy/</guid>
+      <description>&lt;p&gt;Blade Prince Academy ! Mon plus gros projet à ce jour ! C&amp;rsquo;est le premier jeu du studio Angel Corp, entreprise basé à Saint-Etienne j&amp;rsquo;ai rejoint en Septembre 2020. &lt;/br&gt;
+Le développement de Blade Prince Academy a duré 4 ans et a mobilisé une équipe d&amp;rsquo;une quarantaine de personne au plus fort du développement.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boat Driver</title>
+      <link>http://localhost:1313/posts/boat-driver/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/boat-driver/</guid>
+      <description>&lt;p&gt;Boat Driver est une application qui permet de simuler un océan et de déplacer des maquettes motorisées sur un écran géant.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C&#43;&#43; on Portfolio Théo Gaërel</title>
-    <link>https://Ceolms.github.io/tags/c&#43;&#43;/</link>
-    <description>Recent content in C&#43;&#43; on Portfolio Théo Gaërel</description>
+    <title>C&#43;&#43; on Portfolio de Théo Gaërel</title>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Portfolio de Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://Ceolms.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
+    <language>fr</language>
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Escape Unreal</title>
-      <link>https://Ceolms.github.io/2020/01/escape-unreal/</link>
+      <link>http://localhost:1313/posts/escape-unreal/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Ceolms.github.io/2020/01/escape-unreal/</guid>
+      <guid>http://localhost:1313/posts/escape-unreal/</guid>
       <description>&lt;p&gt;Escape Unreal est un jeu de plateforme et escape game réalisé sur Unreal Engine par 3 étudiants en 2 mois.&lt;/p&gt;</description>
     </item>
+    
     
   </channel>
 </rss>

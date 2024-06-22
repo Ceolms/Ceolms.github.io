@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Portfolio Théo Gaërel</title>
-    <link>https://Ceolms.github.io/categories/</link>
-    <description>Recent content in Categories on Portfolio Théo Gaërel</description>
+    <title>Categories on Portfolio de Théo Gaërel</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Portfolio de Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://Ceolms.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Personnel</title>
-      <link>https://Ceolms.github.io/categories/personnel/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://Ceolms.github.io/categories/personnel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projets</title>
-      <link>https://Ceolms.github.io/categories/projets/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://Ceolms.github.io/categories/projets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UQAC</title>
-      <link>https://Ceolms.github.io/categories/uqac/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://Ceolms.github.io/categories/uqac/</guid>
-      <description></description>
-    </item>
-    
+    <language>fr</language>
+    <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
