@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on Portfolio de Théo Gaërel</title>
-    <link>http://localhost:1313/tags/mobile/</link>
+    <link>https://hugo-toha.github.io/tags/mobile/</link>
     <description>Recent content in Mobile on Portfolio de Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mobile/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-toha.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Dragon Garden</title>
-      <link>http://localhost:1313/posts/dragon-garden/</link>
+      <link>https://hugo-toha.github.io/posts/dragon-garden/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/dragon-garden/</guid>
+      <guid>https://hugo-toha.github.io/posts/dragon-garden/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;
@@ -20,10 +20,10 @@
     
     <item>
       <title>4 Cards</title>
-      <link>http://localhost:1313/posts/4cards/</link>
+      <link>https://hugo-toha.github.io/posts/4cards/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/4cards/</guid>
+      <guid>https://hugo-toha.github.io/posts/4cards/</guid>
       <description>&lt;style type=&#39;text/css&#39;&gt;
 .customImg {width: 180px !important; heigth=180px !important}
 &lt;/style&gt;

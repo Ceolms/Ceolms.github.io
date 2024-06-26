@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VR on Portfolio de Théo Gaërel</title>
-    <link>http://localhost:1313/tags/vr/</link>
+    <link>https://hugo-toha.github.io/tags/vr/</link>
     <description>Recent content in VR on Portfolio de Théo Gaërel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/vr/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-toha.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>VR Home</title>
-      <link>http://localhost:1313/posts/vr-home/</link>
+      <link>https://hugo-toha.github.io/posts/vr-home/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/vr-home/</guid>
+      <guid>https://hugo-toha.github.io/posts/vr-home/</guid>
       <description>&lt;p&gt;VR Home est logiciel fait grâce à Unity et Steam VR qui permet de tester des agencements de meubles en Réalité Virtuelle.
 Ce projet a été réalisé par une équipe de 3 étudiants pour le cours d&amp;rsquo;Interaction 3D et réalité virtuelle.&lt;/p&gt;</description>
     </item>
