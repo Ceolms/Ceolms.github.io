@@ -4,12 +4,44 @@
 	<meta name="generator" content="Hugo 0.126.3">
     <title>Portfolio de Théo Gaërel</title>
     
-    <script>
-  window.addEventListener("load", function () {
-    console.log(
-      "Cette fonction est exécutée une fois quand la page est chargée.",
-    );
-  });
+<script>
+(function () {
+  // fire only for tagged visits like ?utm_source=ubisoft or ?r=ubisoft
+  var qp = new URLSearchParams(location.search);
+  var ref = qp.get('r') || qp.get('utm_source');
+  if (!ref) return;
+
+  // naive bot filter + per-session throttle
+  if (/bot|spider|crawl|headless/i.test(navigator.userAgent)) return;
+  var key = 'notify_' + ref;
+  if (sessionStorage.getItem(key)) return;
+
+  // ---- OPTIONAL: also send a GoatCounter event for this tagged visit ----
+  if (window.goatcounter && window.goatcounter.count) {
+    try {
+      window.goatcounter.count({
+        path: location.pathname + location.search,
+        title: 'EmailVisit',
+        event: true,
+        referrer: document.referrer || ''
+      });
+    } catch(_) {}
+  }
+
+  // ---- REQUIRED: send your instant email via Zapier/Make/IFTTT webhook ----
+  fetch('https://hooks.zapier.com/hooks/catch/24967366/u58g7um/', {   // <-- replace URL
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      ref: ref,
+      path: location.pathname + location.search,
+      ts: new Date().toISOString()
+    }),
+    keepalive: true
+  }).then(function () {
+    sessionStorage.setItem(key, '1');
+  }).catch(function(){});
+})();
 </script>
       
       
