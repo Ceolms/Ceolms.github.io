@@ -4,45 +4,7 @@
 	<meta name="generator" content="Hugo 0.126.3">
     <title>Portfolio de Théo Gaërel</title>
     
-<script>
-(function () {
-  // fire only for tagged visits like ?utm_source=ubisoft or ?r=ubisoft
-  var qp = new URLSearchParams(location.search);
-  var ref = qp.get('r') || qp.get('utm_source');
-  if (!ref) return;
-
-  // naive bot filter + per-session throttle
-  if (/bot|spider|crawl|headless/i.test(navigator.userAgent)) return;
-  var key = 'notify_' + ref;
-  if (sessionStorage.getItem(key)) return;
-
-  // ---- OPTIONAL: also send a GoatCounter event for this tagged visit ----
-  if (window.goatcounter && window.goatcounter.count) {
-    try {
-      window.goatcounter.count({
-        path: location.pathname + location.search,
-        title: 'EmailVisit',
-        event: true,
-        referrer: document.referrer || ''
-      });
-    } catch(_) {}
-  }
-
-  // ---- REQUIRED: send your instant email via Zapier/Make/IFTTT webhook ----
-  fetch('https://hooks.zapier.com/hooks/catch/24967366/u58g7um/', {   // <-- replace URL
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      ref: ref,
-      path: location.pathname + location.search,
-      ts: new Date().toISOString()
-    }),
-    keepalive: true
-  }).then(function () {
-    sessionStorage.setItem(key, '1');
-  }).catch(function(){});
-})();
-</script>
+    
       
       
         
@@ -62,7 +24,7 @@
 
   
 
- 
+  
   
   
     
@@ -431,7 +393,10 @@
       <h3 class="p-1"> </h3>
       
       <h5 class="p-1">
-        Développeur de Jeux vidéo
+        Développeur Gameplay
+        
+        chez <a href="https://shirogames.com/" title="Shiro Games" target="_blank" rel="noopener">Shiro Games</a>
+        
       </h5>
       
       <p class="p-1 text-justify">
@@ -506,7 +471,8 @@
     
     
         
-     
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
@@ -720,7 +686,7 @@
         
       </div>
       <div class="card-body">
-        <p class="card-text">C# etant le langage de programmation orienté objet de Unity, j&rsquo;en ai une grande maitrise.</p>
+        <p class="card-text">C# etant le langage de programmation orienté objet le plus courant sur Unity, j&rsquo;en ai une grande maitrise.</p>
       </div>
     </div>
   </a>
@@ -960,7 +926,7 @@
         <div class="company-heading">
             <h5><a href=https://shirogames.com/ title="Shiro Games" target="_blank" rel="noopener">Shiro Games</a></h5>
             <p class="text-muted">
-                octobre 2024 - octobre 2025
+                octobre 2024 - decembre 2025
             </p>
         </div>
         <p class="text-muted">
@@ -973,8 +939,8 @@
     <div class="positions">
     
         <div class="company-heading">
-            <h5 class="designation">Développeur gameplay</h5>
-            <p class="text-muted">octobre 2024 -  octobre 2025 </p>
+            <h5 class="designation">Développeur Gameplay</h5>
+            <p class="text-muted">octobre 2024 -  decembre 2025 </p>
         </div>
         
         
@@ -1057,7 +1023,7 @@
         
     
         <div class="company-heading">
-            <h5 class="designation">Développeur gameplay</h5>
+            <h5 class="designation">Développeur Gameplay</h5>
             <p class="text-muted">septembre 2020 -  mars 2023 </p>
         </div>
         
